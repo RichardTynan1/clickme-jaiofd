@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+"
+	codebase="https://github.com/RichardTynan1/clickme-jaiofd"
+	href="ClickMe.jnlp">
+	<information>
+		<title>ClickMe</title>
+		<vendor>RichardTynan</vendor>
+		<offline-allowed/>
+	</information>
+	<resources>
+		<!-- Application Resources -->
+		<j2se version="1.6+"
+			href="http://www.oracle.com/technetwork/jave/javase/downloads"/>
+		<jar href="ClickMe.jar"
+			main="true" />
+	</resources>
+	<application-desc main-class="ClickMe">
+	</application-desc>
+		<update check="background"/>
+</jnlp>
